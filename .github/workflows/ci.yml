@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout
         id: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.6
 
       # Set Git user for commits that will be created when running tests
       - name: Setup Git
@@ -58,7 +58,7 @@ jobs:
     steps:
       - name: Checkout
         id: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.6
         with:
           fetch-depth: 0 # Fetch full history
 
